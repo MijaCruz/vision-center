@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>VISION CENTER</title>
+    <link rel="stylesheet" href="formulario.css">
+</head>
+
+<body>
+    <div class="formulario">
+        <form name="form1" id="form">
+            NOMBRES Y APELLIDOS:
+            <input id="input" type="text" name="nombre"><br>
+            EDAD:
+            <input id="input" type="number" name="edad"><br>
+            CELULAR:
+            <input id="input" type="number" name="celular"><br>
+            DIRECCIÓN:
+            <input id="input" type="text" name="direccion"><br>
+            CORREO ELECTRONICO:
+            <input id="input" type="text" name="correo"><br>
+            PAGO:
+            <select size="1" name="pago" id="seleccion">
+                <option>CONTRAENTREGA (Efectivo)</option>
+                <option>BBVA</option>
+                <option>INTERBANK</option>
+                <option>YAPE</option>
+                <option>PLIN</option>
+                <option>VISA</option>
+                <option>INTERBANK</option>
+            </select>
+
+            <input id="enviar" type="button" value="Enviar" onclick="mostrar()">
+
+        </form>
+    </div>
+    <script src="formulario.js"></script>
+</body>
+</html>
